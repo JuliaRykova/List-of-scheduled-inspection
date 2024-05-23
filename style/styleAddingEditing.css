@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+}
+
+.titleAdd {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto 20px;
+  border: 5px double rgb(136, 185, 185);
+  padding: 5px 10px 5px;
+  min-width: 200px;
+  max-width: 420px;
+  border-radius: 21px;
+}
+
+.container {
+  background-color: rgb(179, 231, 231);
+  padding: 30px;
+  border-radius: 21px;
+  border: 5px double rgb(136, 185, 185);
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+}
+
+.addCheck {
+  display: flex;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 21px;
+  color: rgb(77, 131, 113);
+  border-color: rgb(98, 172, 147);
+  justify-content: center;
+  min-width: 205px;
+  max-width: 205px;
+}
+
+.addCheck:hover{
+    background-color: rgb(88, 199, 199);
+    font-weight: 700;
+    color: #ffffff;
+}
+.addCheck ,a{
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid rgb(98, 172, 147);
+}
+
+.block {
+  align-items: flex-end;
+  text-align: center;
+  margin: 20px;
+}
+
+.small-block {
+  margin: 20px 0;
+}
+
+input{
+    cursor: pointer;  
+}
+
+.textLable {
+  margin: 10px;
+  font-weight: 600;
+}
