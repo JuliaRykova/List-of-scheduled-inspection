@@ -14,46 +14,40 @@
        <h2 class="titleAdd">Добавление проверки</h2>
        <div class="container">
            <form action="./create.php" method="post" class="formAdd">
-           <div class="row block">
-               <div class="col small-block">
-                   <label for="check" class="textLable">Проверяемый СМП</label>
-                   <!-- <h3>Проверяемый СМП</h3> -->
-                   <input type="text" name="title" id="check">
+               <div class="row block">
+                   <div class="col small-block">
+                       <label for="check" class="textLable">Проверяемый СМП</label>
+                       <input type="text" name="title" id="check">
+                   </div>
 
-               </div>
+                   <div class="col small-block">
+                       <label for="supervisoryAuthority" class="textLable">Контролирующий орган</label>
+                       <input type="text" name="control" id="supervisoryAuthority">
+                   </div>
 
-               <div class="col small-block">
-                   <label for="supervisoryAuthority" class="textLable">Контролирующий орган</label>
-                   <!-- <h3>Контролирующий орган</h3> -->
-                   <input type="text" name="control" id="supervisoryAuthority">
-               </div>
+                   <div class="col small-block">
+                       <label for="beginning" class="textLable">Начало планового периода проверки</label>
+                       <input type="date" name="beginningVerification" id="beginning">
+                   </div>
 
-               <div class="col small-block">
-                   <label for="beginning" class="textLable">Начало планового  периода проверки</label>
-                   <!-- <h3>Начало планового периода проверки</h3> -->
-                   <input type="date" name="beginningVerification" id="beginning">
-               </div>
+                   <div class="col small-block">
+                       <label for="ending" class="textLable">Окончание планового периода проверки</label>
+                       <input type="date" name="endVerification" id="ending">
+                   </div>
 
-               <div class="col small-block">
-                   <label for="ending" class="textLable">Окончание планового периода проверки</label>
-                   <!-- <h3>Окончание планового периода проверки</h3> -->
-                   <input type="date" name="endVerification" id="ending">
-               </div>
-
-               <div class="col small-block">
-                   <label for="duration" class="textLable">Плановая длительность</label>
-                   <!-- <h3>Плановая длительность</h3> -->
-                   <input type="number" name="duration" id="duration">
-               </div>
+                   <div class="col small-block">
+                       <label for="duration" class="textLable">Плановая длительность</label>
+                       <input type="number" name="duration" id="duration">
+                   </div>
                </div>
                <br> <br>
-               <div class="action row">
-               <button type="reset" class="addCheck col">Очистить форму</button>
-               <button type="submit" class="addCheck col">Сохранить форму</button>
-               <!-- <button  href="../index.php"  type="button" class="addCheck col">Вернуться</button> -->
-               <a href="../index.php" class="addCheck col">Вернуться</a>
 
+               <div class="action row">
+                   <button type="reset" class="addCheck col">Очистить форму</button>
+                   <button type="submit" class="addCheck col">Сохранить форму</button>
+                   <a href="../index.php" class="addCheck col">Вернуться</a>
                </div>
+               
            </form>
        </div>
    </body>

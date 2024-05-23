@@ -37,15 +37,17 @@ body {
   max-width: 205px;
 }
 
-.addCheck:hover{
-    background-color: rgb(88, 199, 199);
-    font-weight: 700;
-    color: #ffffff;
+.addCheck:hover {
+  background-color: rgb(88, 199, 199);
+  font-weight: 700;
+  color: #ffffff;
 }
-.addCheck ,a{
-    text-decoration: none;
-    background-color: #fff;
-    border: 2px solid rgb(98, 172, 147);
+
+.addCheck,
+a {
+  text-decoration: none;
+  background-color: #fff;
+  border: 2px solid rgb(98, 172, 147);
 }
 
 .block {
@@ -58,8 +60,8 @@ body {
   margin: 20px 0;
 }
 
-input{
-    cursor: pointer;  
+input {
+  cursor: pointer;
 }
 
 .textLable {

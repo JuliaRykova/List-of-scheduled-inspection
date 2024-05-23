@@ -10,6 +10,6 @@ $beginningVerification = $_POST['beginningVerification'];
 $endVerification = $_POST['endVerification'];
 $duration = $_POST['duration'];
 
-mysqli_query($connect ,"UPDATE `the register of scheduled inspections` SET `title` = '$title', `control` = ' $control', `beginningVerification` = '$beginningVerification', `endVerification` = '$endVerification', `duration` = '$duration' WHERE `the register of scheduled inspections`.`id` = '$id'");
+mysqli_query($connect, "UPDATE `the register of scheduled inspections` SET `title` = '$title', `control` = ' $control', `beginningVerification` = '$beginningVerification', `endVerification` = '$endVerification', `duration` = '$duration' WHERE `the register of scheduled inspections`.`id` = '$id'");
 
-header( 'Location: ../index.php');
+header('Location: ../index.php');

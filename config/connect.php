@@ -1,8 +1,8 @@
 <?php
 
 // подключаемся к базе данных 
-$connect = mysqli_connect('localhost','root', '','register');
+$connect = mysqli_connect('localhost', 'root', '', 'register');
 
-if (!$connect){
+if (!$connect) {
     echo 'ERROR';
 }
